@@ -1,6 +1,6 @@
 <?php
 
-$host = 'localhost';
+$host = '138.68.20.40';
 $dbname = 'TIENDA';
 $usuario = 'root';
 $password = '';
