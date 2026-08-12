@@ -7,7 +7,7 @@ if (!isset($_SESSION['id_usuario'])) {
     exit;
 }
 
-require_once 'includes/encabezado.php';
+require_once 'includes/header.php';
 ?>
 
 <h1>Registrar pedido</h1>
