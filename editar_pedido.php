@@ -62,8 +62,7 @@ require_once 'includes/header.php'; ?>
         <div class="campo">
             <label for="<?php echo $c; ?>"><?php echo $l; ?>:</label>
             <input type="<?php echo $c === 'Precio' ? 'number' : 'text'; ?>" <?php echo $c === 'Precio' ? 'step="0.01" min="0"' : ''; ?> id="<?php echo $c; ?>" name="<?php echo $c; ?>" value="<?php echo htmlspecialchars($p[$c], ENT_QUOTES, 'UTF-8'); ?>">
-            <
-                /div><?php endforeach; ?>
-            <button type="submit">Guardar cambios</button>
+        </div><?php endforeach; ?>
+    <button type="submit">Guardar cambios</button>
 </form>
 <?php require_once 'includes/footer.php'; ?>
