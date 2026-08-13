@@ -107,3 +107,19 @@ footer {
     background: #222;
     color: white;
 }
+
+.pagina-pedidos-fondo {
+    padding: 30px;
+    min-height: 520px;
+
+    background-image:
+        linear-gradient(
+            rgba(255, 255, 255, .86),
+            rgba(255, 255, 255, .86)
+        ),
+        url('../img/fondo-pedidos.jpg');
+
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
