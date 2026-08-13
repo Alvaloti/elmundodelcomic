@@ -5,7 +5,7 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background: #f5f5f5;
+    background-image: url('/public/img/fondo.jpg');
     color: #222;
 }
 
@@ -39,7 +39,7 @@ body {
     max-width: 900px;
     margin: 30px auto;
     padding: 20px;
-    background: url('/public/img/fondo.jpg');
+    background: white;
 }
 
 .inicio {
