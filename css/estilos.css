@@ -114,7 +114,7 @@ footer {
 
   background-image:
     linear-gradient(rgba(255, 255, 255, 0.86), rgba(255, 255, 255, 0.86)),
-    url("../img/fondo-pedidos.jpg");
+    url("/public/img/fondo.jpg");
 
   background-size: cover;
   background-position: center;
