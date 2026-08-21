@@ -3,7 +3,7 @@
 $productosCarrusel = [
 
     [
-        'imagen' => 'img/comics.jpg',
+        'imagen' => '/public/img/comics.jpg',
         'titulo' => 'Cómics y revistas',
         'descripcion' =>
             'Descubre historias, personajes y nuevas aventuras '
@@ -11,7 +11,7 @@ $productosCarrusel = [
     ],
 
     [
-        'imagen' => 'img/albumes.jpg',
+        'imagen' => '/public/img/albumes.jpg',
         'titulo' => 'Álbumes coleccionables',
         'descripcion' =>
             'Encuentra álbumes y colecciones especiales '
@@ -19,7 +19,7 @@ $productosCarrusel = [
     ],
 
     [
-        'imagen' => 'img/figuras.jpg',
+        'imagen' => '/public/img/figuras.jpg',
         'titulo' => 'Figuras de acción',
         'descripcion' =>
             'Conoce nuestra selección de figuras de acción '
@@ -27,7 +27,7 @@ $productosCarrusel = [
     ],
 
     [
-        'imagen' => 'img/animacion.jpg',
+        'imagen' => '/public/img/animacion.jpg',
         'titulo' => 'Series animadas',
         'descripcion' =>
             'Productos inspirados en series animadas '
@@ -35,7 +35,7 @@ $productosCarrusel = [
     ],
 
     [
-        'imagen' => 'img/peliculas.jpg',
+        'imagen' => '/public/img/peliculas.jpg',
         'titulo' => 'Cine y películas',
         'descripcion' =>
             'Artículos relacionados con películas, '
@@ -303,7 +303,7 @@ require_once 'includes/header.php';
             <div class="card h-100 shadow-sm">
 
                 <img
-                    src="img/comics.jpg"
+                    src="public/img/comic.jpg"
                     class="card-img-top imagen-tarjeta"
                     alt="Cómics y revistas"
                 >
