@@ -11,7 +11,7 @@ $productosCarrusel = [
     ],
 
     [
-        'imagen' => '/public/img/albumes.jpg',
+        'imagen' => 'public/img/albumes.jpg',
         'titulo' => 'Álbumes coleccionables',
         'descripcion' =>
             'Encuentra álbumes y colecciones especiales '
@@ -19,7 +19,7 @@ $productosCarrusel = [
     ],
 
     [
-        'imagen' => '/public/img/figuras.jpg',
+        'imagen' => 'public/img/figuras.jpg',
         'titulo' => 'Figuras de acción',
         'descripcion' =>
             'Conoce nuestra selección de figuras de acción '
@@ -27,7 +27,7 @@ $productosCarrusel = [
     ],
 
     [
-        'imagen' => '/public/img/animacion.jpg',
+        'imagen' => 'public/img/animacion.jpg',
         'titulo' => 'Series animadas',
         'descripcion' =>
             'Productos inspirados en series animadas '
@@ -35,7 +35,7 @@ $productosCarrusel = [
     ],
 
     [
-        'imagen' => '/public/img/peliculas.jpg',
+        'imagen' => 'public/img/peliculas.jpg',
         'titulo' => 'Cine y películas',
         'descripcion' =>
             'Artículos relacionados con películas, '
