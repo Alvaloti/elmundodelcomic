@@ -341,7 +341,7 @@ require_once 'includes/header.php';
             <div class="card h-100 shadow-sm">
 
                 <img
-                    src="img/albumes.jpg"
+                    src="public/img/albumes.jpg"
                     class="card-img-top imagen-tarjeta"
                     alt="Álbumes coleccionables"
                 >
@@ -379,7 +379,7 @@ require_once 'includes/header.php';
             <div class="card h-100 shadow-sm">
 
                 <img
-                    src="img/figuras.jpg"
+                    src="public/img/figuras.jpg"
                     class="card-img-top imagen-tarjeta"
                     alt="Figuras y artículos de colección"
                 >
